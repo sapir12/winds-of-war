@@ -1,0 +1,59 @@
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+#myCards{
+	position: absolute;
+	width: 400px;
+	top: 540px;
+}
+#board{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height : 600px;
+    background-color: blue;
+    z-index: -1;
+
+}
+#arena{
+	position: absolute;
+	z-index: 0;
+	width: 377px;
+	height: 396px;
+	background-color: lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+	top: 100px;
+	border-radius: 7px;
+}
+.grid{
+	width: 25px;
+	height: 40px;
+	border-radius: 1px;
+	border: solid;
+	border-width: 2px;
+	border-color: rgba(170, 170, 170, 0.8);
+	float: left;
+	z-index: 1;
+	position: relative;
+
+}
+.block{
+	height: 40px;
+	width: 25px;
+	border-radius: 5px;
+	border: solid;
+	border-width: 3px;
+	margin-bottom: 6px;
+	float: left;
+	margin-left: 3px;
+	z-index: 0;
+	position: relative;
+}
+.footer{
+	background-color: red;
+}
+body{
+	margin: 0px;
+}

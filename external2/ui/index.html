@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html ng-app="winds">
+	<head>
+		<title>Winds of War</title>
+		<link rel="stylesheet" type="text/css" href="">
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="angular-main.js"></script>
+	</head>
+	<body ng-controller="gameCtrl">
+		<ul data-ng-repeat="something in card">
+			<li>
+				{{something.key}}
+			</li>
+		</ul>
+	</body>
+</html>

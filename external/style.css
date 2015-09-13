@@ -1,0 +1,19 @@
+td:hover{
+	background-color: rgba(40,20,35,0.3);
+}
+
+td{
+	border-style: solid;
+}
+
+table{
+	border-style: solid;
+}
+
+.wrapper{
+	position: absolute;
+	left: 37.312%;
+	top: 10%;
+	border-style: solid;
+	text-align: center;
+}

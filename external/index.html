@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="windsOfWar">
+<head>
+	<title>winds of war</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="angular.min.js"></script>
+	<script src="angular-route.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="angular-main.js"></script>
+</head>
+<body ng-controller="home">
+	<p>
+		<div>
+			<table class="wrapper">
+				<tr ng-repeat="skill in skills">
+					<td ng-click="refineExecute(skill.value.code, exampleCard)">{{skill.name}}</td>
+				</tr>
+				<br>
+				<div>Defense: {{exampleCard.defense}}</div>
+				<div>Health: {{exampleCard.health}}</div>
+			</table>
+		</div>	
+	</p>
+</body>
+</html>

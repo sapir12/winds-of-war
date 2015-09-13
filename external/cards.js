@@ -1,0 +1,1 @@
+var Sieaou = {name: 'Sieaou', power: 5};
